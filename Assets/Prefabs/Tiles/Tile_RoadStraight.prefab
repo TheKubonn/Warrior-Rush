@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &958620379365049272
+--- !u!1001 &7784829661832520551
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2345824879308910640, guid: b4a322eae1f0f1543983f2e4f519181f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2345824879308910640, guid: b4a322eae1f0f1543983f2e4f519181f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -51,10 +51,18 @@ PrefabInstance:
     - target: {fileID: 2878054935387942548, guid: b4a322eae1f0f1543983f2e4f519181f, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
+      objectReference: {fileID: -2432090755550338912, guid: e618ab8e55a3ed942a408f4d1b7f896e, type: 3}
+    - target: {fileID: 2931538697355232167, guid: b4a322eae1f0f1543983f2e4f519181f, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7645803286991003239, guid: b4a322eae1f0f1543983f2e4f519181f, type: 3}
+      propertyPath: m_text
+      value: 4,0
+      objectReference: {fileID: 0}
     - target: {fileID: 9015701559948055571, guid: b4a322eae1f0f1543983f2e4f519181f, type: 3}
       propertyPath: m_Name
-      value: Tile_RoadCorner
+      value: Tile_RoadStraight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
